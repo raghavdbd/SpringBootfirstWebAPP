@@ -1,0 +1,5 @@
+Now i am going to start my first Web application in Spring Boot
+
+Application.properties -> this is a file where we can write Custom Configuration of a project
+
+pom.xml -> in this file all the dependency which are used in projet are initialize
