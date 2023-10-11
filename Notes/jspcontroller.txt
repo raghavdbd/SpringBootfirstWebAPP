@@ -1,0 +1,11 @@
+to store any jsp file always use
+/sec/main/resources/META_INF?resources/WEB_INf/jsp/file
+
+
+
+in Application .properties add
+spring.mvc.view.prifix=
+spring.mvc.suffix=
+
+if you want to see logging info then add this in application.properties
+logging.level.org.springFramework=debug

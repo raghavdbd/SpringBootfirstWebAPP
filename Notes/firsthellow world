@@ -1,0 +1,4 @@
+@RequestMapping("Path") -> this annotation is used to map the controller with a specific Router
+@controller -> this Annotation is used to tell that this class is controller class
+
+@Response Body-> this Annotation is used to return output as it is
