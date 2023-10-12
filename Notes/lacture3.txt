@@ -1,0 +1,15 @@
+In this we learn About Params
+
+ public String loginpage(@RequestParam String name,ModelMap model){
+        model.put("name",name);
+        return "Loginpage";
+    }
+
+
+    @RequestParam -> this annotation is usedto define param 
+    model-> Whenever we want to pass something from controller to jsp this we do by putting them in model
+
+    if we want to access param value in jsp then we use
+    ${name}
+
+

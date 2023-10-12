@@ -1,0 +1,12 @@
+@RequestMapping(value="login" , method =RequestMethod.POST)
+     public String Welcomepage(@RequestParam String Name ,@RequestParam String password , ModelMap model){
+        model.put(password, password);
+        model.put(Name, Name);
+
+
+       
+        return "Welcome";
+    }
+
+
+    

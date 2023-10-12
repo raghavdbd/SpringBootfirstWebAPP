@@ -1,0 +1,11 @@
+Constructor injection is a form of dependency injection in which dependencies
+ (usually other objects or services) are provided to a class through its constructor. 
+ In simpler terms, when you create an instance of a class, the required dependencies
+  are "injected" into the class by passing them as arguments to the constructor. 
+  Constructor injection is one of the common ways to achieve Inversion of Control (IoC) in object-oriented programming.
+
+
+  The @Service annotation is one of the stereotype annotations provided by the Spring Framework. 
+  It is used to declare a class as a service component in a Spring-based application.
+   Services in Spring typically represent the business logic and services that your application provides.
+    When you mark a class with @Service, it becomes a Spring-managed bean, and Spring takes care of its lifecycle and dependency injection.
